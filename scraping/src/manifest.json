@@ -1,0 +1,12 @@
+{
+  "name": "gizumo_backlog",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "disable merge button on backlog",
+  "content_scripts": [{
+    "matches": ["https://gizumo.backlog.com/git/GL/dev_gizlog/pullRequests/*"],
+    "js": [
+      "content.js"
+    ]
+  }]
+}
