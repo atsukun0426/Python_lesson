@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import datetime
 import math
-import User
+import User　
 
 name = '岩崎'
 print('私の名前は' + name + 'です')
